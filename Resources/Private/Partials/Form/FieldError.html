@@ -4,6 +4,9 @@
 		<f:for each="{validationResults.flattenedErrors}" as="errors">
 			<f:for each="{errors}" as="error" iteration="iterator">
 				<f:if condition="{iterator.index} == 0">
+					<f:debug>{objectName}</f:debug>
+					<f:debug>{property}</f:debug>
+					<f:debug>{validationResults.flattenedErrors}</f:debug>
 					<div class="col-sm-10 col-sm-offset-2">
 						<f:translate
 								key="{objectName}.error.{property}.{error.code}"/>

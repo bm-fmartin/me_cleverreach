@@ -48,6 +48,9 @@
             <trans-unit id="user.error.email.1221560718">
                 <source>Please enter your email</source>
             </trans-unit>
+            <trans-unit id="user.error.privacyPolicy.1361959228">
+                <source>Please confirm our privacy policy</source>
+            </trans-unit>
             <trans-unit id="user.error.email.1221559976">
                 <source>Please enter a valid email address:</source>
             </trans-unit>
@@ -74,6 +77,13 @@
             </trans-unit>
             <trans-unit id="form.already_exists.subscribe">
                 <source>This email address already exists!</source>
+            </trans-unit>
+            <trans-unit id="user.privacyPolicy">
+                <source>
+                    By submitting the contact form, you declare that you have read our
+                    <![CDATA[<a href="https://www.weavingarchitecture.com/en/privacy-policy/">privacy policy</a>]]>
+                    and that you agree with its validity.
+                </source>
             </trans-unit>
         </body>
     </file>

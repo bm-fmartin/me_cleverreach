@@ -38,6 +38,12 @@ class User extends AbstractValueObject
     protected $email;
 
     /**
+     * @var bool
+     * @validate Boolean(is=true)
+     */
+    protected $privacyPolicy;
+
+    /**
      * @var array
      */
     protected $settings;
@@ -185,5 +191,21 @@ class User extends AbstractValueObject
         }
 
         return $postData;
+    }
+
+    /**
+     * @return bool
+     */
+    public function isPrivacyPolicy()
+    {
+        return $this->privacyPolicy;
+    }
+
+    /**
+     * @param bool $privacyPolicy
+     */
+    public function setPrivacyPolicy($privacyPolicy)
+    {
+        $this->privacyPolicy = $privacyPolicy;
     }
 }

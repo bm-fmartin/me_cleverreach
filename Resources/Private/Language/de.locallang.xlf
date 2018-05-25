@@ -48,6 +48,9 @@
             <trans-unit id="user.error.email.1221560718">
                 <target>Bitte geben Sie Ihre E-Mail-Adresse ein:</target>
             </trans-unit>
+            <trans-unit id="user.error.privacyPolicy.1361959228">
+                <source>Bitte bestätigen Sie unsere Datenschutzerklärung</source>
+            </trans-unit>
             <trans-unit id="user.error.email.1221559976">
                 <target>Bitte geben Sie eine gültige E-Mail-Adresse an:</target>
             </trans-unit>
@@ -74,6 +77,13 @@
             </trans-unit>
             <trans-unit id="form.already_exists.subscribe">
                 <target>E-Mail-Adresse bereits vorhanden!</target>
+            </trans-unit>
+            <trans-unit id="user.privacyPolicy">
+                <target>
+                    Mit dem Absenden des Kontaktformulars erklären Sie, dass Sie unserer
+                    <![CDATA[<a href="https://www.diedrahtweber-architektur.com/de/datenschutz/">Datenschutzerklärung</a>]]>
+                    zur Kenntnis genommen haben und mit deren Geltung einverstanden sind.
+                </target>
             </trans-unit>
         </body>
     </file>

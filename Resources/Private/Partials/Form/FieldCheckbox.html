@@ -1,0 +1,14 @@
+<div class="form-group">
+	<f:render partial="Form/FieldError" arguments="{property: propertyName, objectName: 'user'}"/>
+
+	<div class="col-sm-10">
+		<f:form.checkbox
+				property="{propertyName}"
+				value="privacyPolicy"
+				id="{fieldId}-privacyPolicy"/>
+
+		<label for="{fieldId}-privacyPolicy" class="control-label radio-label">
+			<f:translate key="{translationKey}"/>
+		</label>
+	</div>
+</div>
